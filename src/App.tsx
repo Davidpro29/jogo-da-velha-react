@@ -1,9 +1,24 @@
 import * as C from './App.styles';
-import Logo from './assets/devmemory_logo.png'
 
+import { useEffect, useState } from 'react';
+
+import Logo from './assets/devmemory_logo.png'
+import RestartIcon from './svgs/restart.svg'
+import { Button } from './components/Button';
 import { InfoItem } from './components/InfoItem';
 
+
 const App = () =>{
+  const [playing, setPlaying] = useState<boolean>(false)
+  const [timeElapsed, setTimeElapsed] = useState<number>(0)
+  const [moveCount, setMoveCount] = useState<number>(0)
+
+  useEffect(() => resetGrid(), [])
+
+  const resetGrid = () =>{
+
+  }
+
   return (
     <C.Container>
       <C.Info>
@@ -16,11 +31,13 @@ const App = () =>{
           <InfoItem label="Movimentos" value="0" />
         </C.InfoArea>
 
-        <button>Reiniciar</button>
+        <Button label='Reiniciar' icon={RestartIcon} onClick={resetGrid} />
 
       </C.Info>
       <C.GridArea>
-        area de grid
+        <C.Grid>
+
+        </C.Grid>
       </C.GridArea>
     </C.Container>
   )
