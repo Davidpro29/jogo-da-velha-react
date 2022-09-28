@@ -12,3 +12,6 @@ Uso na web e em tablets<br>
 
 Uso em mobile<br>
 ![memoryMobile](https://user-images.githubusercontent.com/89535654/192842415-f907e273-9e3a-446a-bbd3-2613e73f621f.png)
+<br><br>
+https://memorysilva.netlify.app/<br>
+https://portfoliosilva.netlify.app/
