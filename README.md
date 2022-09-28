@@ -7,7 +7,8 @@ Projeto finalizado!
 - Timer e movimentos dos jogadores.
 <br>
 Uso na web e em tablets<br>
-![memoryWeb](https://user-images.githubusercontent.com/89535654/192842391-4ec9f730-6e69-42c1-8501-8bf317498347.png)
+![memoryWeb](https://user-images.githubusercontent.com/89535654/192843820-5c9df695-0bf5-42f1-85da-584dff78629d.png)
+
 
 Uso em mobile<br>
 ![memoryMobile](https://user-images.githubusercontent.com/89535654/192842415-f907e273-9e3a-446a-bbd3-2613e73f621f.png)
